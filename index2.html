@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/714bdf1d56.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Juanico.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="opennmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Web Programmer</p>
+                <h1>Hi Everyone,<br>my name is <span>Juanico</span></h1>
+
+            </div>
+        </div>
+
+    </div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/juan.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello everyone, my full name is Juanico Wijaya Kusuma. I'm currently a third year college student at Bina Nusantara University in Kemanggisan, West Java studying at Computer science major. I'm currently studying in front end developers
+                        and UI/UX major. My current GPA is at 3.15 out of 4.00. My personality is a relaxing person who can give a relaxing attitude towards my team while also work hard and can also work well with other people.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Club and Organization')">Club and Organization</p>
+                        <p class="tab-links" onclick="opentab('Event and Community Experiences')">Event and Community Experiences</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>I have some knowledge for Web and application prototype design interface by using figma
+                                <img src="images/figma.png" alt="">
+                            </li>
+                            <li><span>Front End Development</span><br>I understood basic knowledge of some of the Front End programming language such as HTML, Javascript, and CSS
+
+                            </li>
+                            <img src="images/frontend.png" alt="">
+
+                            <li><span>Backend Development</span><br>I have learned back-end programming language like C and java to some extends</li>
+                            <img src="images/C.png" alt="">
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Club and Organization">
+                        <ul>
+                            <li><span>2021</span><br>Becoming member of Bina Nusantara Cyber Security Community</li>
+                            <li><span>2022</span><br>Becoming member of Bina Nusantara Badminton Community</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Event and Community Experiences">
+                        <ul>
+                            <li><span>2020</span><br> Joined Teach for Indonesia 7 days of kindness challenge for community and social services</li>
+                            <li><span>2022</span><br>Joined Bina Nusantara English Club community serivices for contributing to climate change</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Domain Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-display"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing basic web general design based on it's prototype and each of it's interfaces using programming language as it's frontend and backend for design and features interfaces and open it using web links</p>
+                    <a href="https://www.interaction-design.org/literature/topics/web-design">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing basic web prototype design and each of it's interfaces and features using web design platform to design the web based on it function needs and defining what the user will experience in accessing the web</p>
+                    <a href="https://resources.workable.com/ui-ux-designer-job-description#:~:text=UI%20UX%20designers%20create%20the,also%20process%20flows%20or%20sitemaps.">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>IoT</h2>
+                    <p>Designing structural systems to connect all electronical and non electonical devices to the internet whether using sensor or processor to the device itself</p>
+                    <a href="https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------portofolio----------- -->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Project and Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot (32).png" alt="">
+                    <div class="layer">
+                        <h3>Cateringin</h3>
+                        <p>Cateringin adalah project catering online yang merupakan platform basis orang ketiga untuk menghubungkan pembeli dan penjual catering yang ada</p>
+                        <a href="https://docs.google.com/document/d/1tQ7RCbi2VCQ6GGNtjcI9uRM9aLPDeySHin09tKlQ8uY/edit?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (39).png" alt="">
+                    <div class="layer">
+                        <h3>Menicraft</h3>
+                        <p>Menicraft adalah project pembuatan web app prototype design menggunakan adobe animate sebagai platform serta beberapa interface menggunakan javascript</p>
+                        <a href="https://drive.google.com/file/d/1nDV9uEumyieL3qgwqghwLWI33PP18Dga/view?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (34).png" alt="">
+                    <div class="layer">
+                        <h3>Halo Pharmacy</h3>
+                        <p>Halo pharmacy adalah proyek database sistem untuk membuat sistem database multifungsi untuk klinik beserta diagram arsitekturnya</p>
+                        <a href="https://drive.google.com/file/d/1393cJ6BN_N1V1iSZHll121s50CSg8XjJ/view?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Screenshot (37).png" alt="">
+                    <div class="layer">
+                        <h3>La Forant</h3>
+                        <p>La Forant adalah proyek front end coding berbasis HTML, CSS, dan Javascript untuk mendesign web promosi game fps shooter beserta linknya</p>
+                        <a href="https://docs.google.com/document/d/1tQ7RCbi2VCQ6GGNtjcI9uRM9aLPDeySHin09tKlQ8uY/edit?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/snakee.png" alt="">
+                    <div class="layer">
+                        <h3>Snake project design</h3>
+                        <p>Snake project adalah proyek untuk membuat game ular chasing yang dibuat dengan C language sebagai basis codingannya</p>
+                        <a href="https://drive.google.com/file/d/1Y0ZD7VupNF60zGYZBVRLB2GZxdd-3UIS/view?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (38).png" alt="">
+                    <div class="layer">
+                        <h3>Meja Pintar</h3>
+                        <p>Meja Pintar adalah proyek untuk pembuatan prototype serta design bisnis and promosi meja pintar yang pengaturannya dapat dikendalikan dengan tombol dan internet
+                        </p>
+                        <a href="https://drive.google.com/file/d/1rKEBOZVJ41VnwU8CRpfBIN9ek_Ryqb2g/view?usp=sharing">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1GKd6pTlrmLtbTayuL3sQUOO0H3q0nh0b?usp=sharing" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------------Contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> juanicowijayakusuma123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 087778072773</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/jinx6718/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/juanico-wijaya-kusuma-03a318206/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/juanico.wijayakusuma"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/White and Gray Modern Docter Cv Resume (1).png" download class="btn btn2">Download my CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <footer class="copyright">
+        <p><i class="fa-solid fa-diamond"></i>Copyright @JuanicoWijayaKusuma_Portofolio<i class="fa-solid fa-diamond"></i></p>
+    </footer>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function opennmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby7vafOqX0eGO0dRWEgaL7B8yUueQKg0iALL-yBDl7JOK5tPaCE-VVYU8xZyjtDU6E/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
